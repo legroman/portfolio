@@ -13,7 +13,6 @@ export default function Header() {
             setMenu({close: "", show: ""});
             setShowMenu(false);
         }
-        console.log(menu);
     };
     return (
         <header>
@@ -24,12 +23,10 @@ export default function Header() {
             </div>
             <nav className={`menu ${menu.show}`}>
                 <div className={`menu-branding ${menu.show}`}>
-                    <div className="portrait">
-
-                    </div>
+                    <div className="portrait"></div>
                 </div>
                 <ul className={`menu-nav ${menu.show}`}>
-                    <li className={`nav-item ${menu.show}`}>
+                    <li className={`nav-item ${menu.show} current`}>
                         <a href="#" className="nav-link">Home</a>
                     </li>
                     <li className={`nav-item ${menu.show}`}>
