@@ -1,5 +1,6 @@
 import React from "react";
 import photo from "../image/portrait.jpg";
+import Footer from "../components/Footer";
 
 export default function About() {
     return (
@@ -40,9 +41,7 @@ export default function About() {
                     </div>
                 </div>
             </main>
-            <footer id="main-footer">
-                Copyright &copy; 2020
-            </footer>
+            <Footer/>
         </div>
     )
 }

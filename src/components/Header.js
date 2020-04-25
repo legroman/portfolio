@@ -34,7 +34,7 @@ export default function Header() {
                         <Link to="/about" className="nav-link">About Me</Link>
                     </li>
                     <li className={`nav-item ${menu.show}`}>
-                        <a href="#" className="nav-link">My Work</a>
+                        <Link to="/work" className="nav-link">My Work</Link>
                     </li>
                     <li className={`nav-item ${menu.show}`}>
                         <a href="#" className="nav-link">How To Reach Me</a>

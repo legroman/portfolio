@@ -1,6 +1,6 @@
 import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {faTwitter, faFacebook,faLinkedin, faGithub} from "@fortawesome/free-brands-svg-icons"
+import {faTwitter, faFacebook,faLinkedin, faGithub} from "@fortawesome/free-brands-svg-icons";
 
 export default function Home() {
     return(
