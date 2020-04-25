@@ -1,14 +1,14 @@
 $primary-color: #444;
 $secondary-color: #eece1a;
 $show-home-image: true;
-//$home-image: url(image/bg.jpg);
+$home-image: url(image/bg.jpg);
 $background-opacity: 0.93;
 
 @mixin easeOut{
   transition: all 0.5s ease-out;
 }
 
-@mixin background{
+@mixin background-img{
   @if $show-home-image {
     &#bg-img{
       background: $home-image;
@@ -27,6 +27,25 @@ $background-opacity: 0.93;
         background: rgba($primary-color, $background-opacity);
       }
     }
+  }
+}
+
+@mixin background{
+  @if $show-home-image {
+    &.bg{
+      background: $primary-color;
+      background-attachment: fixed;
+      background-size: cover;
+    }
+  }
+}
+
+// Set text color
+@function set-text-color($color){
+  @if (lightness($color) > 40){
+    @return #000000
+  }@else {
+    @return #ffffff
   }
 }
 

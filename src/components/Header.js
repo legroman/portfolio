@@ -1,5 +1,6 @@
 import React from "react";
 import {useState} from "react";
+import {Link} from "react-router-dom";
 
 export default function Header() {
     const [showMenu, setShowMenu] = useState(false);
@@ -27,10 +28,10 @@ export default function Header() {
                 </div>
                 <ul className={`menu-nav ${menu.show}`}>
                     <li className={`nav-item ${menu.show} current`}>
-                        <a href="#" className="nav-link">Home</a>
+                        <Link to="/" className="nav-link">Home</Link>
                     </li>
                     <li className={`nav-item ${menu.show}`}>
-                        <a href="#" className="nav-link">About Me</a>
+                        <Link to="/about" className="nav-link">About Me</Link>
                     </li>
                     <li className={`nav-item ${menu.show}`}>
                         <a href="#" className="nav-link">My Work</a>
