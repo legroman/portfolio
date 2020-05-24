@@ -92,11 +92,12 @@
     .portrait{
       width: 250px;
       height: 250px;
-      background: url("../image/portrait.jpg");
+      background: url("../image/avatar.png");
       border-radius: 50%;
       border: solid 3px $secondary-color;
-      background-size: auto 250px;
-      background-position-x: 35%;
+      background-size: auto 245px;
+      background-position-x: 50%;
+      background-position-y: 45%;
     }
   }
 

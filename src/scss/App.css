@@ -55,11 +55,12 @@
     .menu-branding .portrait {
       width: 250px;
       height: 250px;
-      background: url("../image/portrait.jpg");
+      background: url("../image/avatar.png");
       border-radius: 50%;
       border: solid 3px #eece1a;
-      background-size: auto 250px;
-      background-position-x: 35%; }
+      background-size: auto 245px;
+      background-position-x: 50%;
+      background-position-y: 45%; }
   .menu .nav-item {
     transform: translate3d(600px, 0, 0);
     transition: all 0.5s ease-out; }
@@ -175,8 +176,8 @@ main {
     overflow: hidden; }
   .about-info .bio-image {
     grid-area: bioimage;
-    width: 380px;
-    margin-left: -50px; }
+    width: 300px;
+    margin-left: -30px; }
   .about-info .bio {
     grid-area: bio;
     font-size: 1.5rem; }
@@ -280,8 +281,8 @@ main {
     .menu-branding .portrait {
       width: 150px;
       height: 150px;
-      background-size: auto 150px;
-      background-position-x: 35%; }
+      background-size: auto 145px;
+      background-position-x: 50%; }
   .about-info {
     grid-template-areas: "bioimage" "bio" "job1" "job2" "job3";
     grid-template-columns: 1fr; }

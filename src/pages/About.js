@@ -1,5 +1,5 @@
 import React from "react";
-import photo from "../image/portrait.jpg";
+import photo from "../image/avatar.png";
 import Footer from "../components/Footer";
 
 export default function About() {
@@ -24,7 +24,7 @@ export default function About() {
                         </p>
                     </div>
                     <div className="job job-2">
-                        <h3>Designers ABC</h3>
+                        <h3>Web-Designer</h3>
                         <h6>Front End Developer</h6>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam amet asperiores consectetur consequuntur, cumque dicta facilis fuga fugiat id nam pariatur quam tempore temporibus totam.
