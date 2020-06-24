@@ -23,14 +23,14 @@ export default function Work() {
                         </a>
                     </div>
                     <div className="item">
-                        <a href="#!"><img src={photo} alt="photo"/></a>
-                        <a href="#!"  className="btn-light"><FontAwesomeIcon icon={faEye} size="lg"/> Project</a>
-                        <a href="#!"  className="btn-dark"><FontAwesomeIcon icon={faGithub} size="lg"/> GitHub</a>
+                        <a href="https://bookinist.netlify.app"><img src={photo} alt="photo"/></a>
+                        <a href="https://bookinist.netlify.app"  className="btn-light"><FontAwesomeIcon icon={faEye} size="lg"/> Project</a>
+                        <a href="https://github.com/legroman/books"  className="btn-dark"><FontAwesomeIcon icon={faGithub} size="lg"/> GitHub</a>
                     </div>
                     <div className="item">
-                        <a href="#!"><img src={photo} alt="photo"/></a>
-                        <a href="#!"  className="btn-light"><FontAwesomeIcon icon={faEye} size="lg"/> Project</a>
-                        <a href="#!"  className="btn-dark"><FontAwesomeIcon icon={faGithub} size="lg"/> GitHub</a>
+                        <a href="https://nunox.netlify.app"><img src={photo} alt="photo"/></a>
+                        <a href="https://nunox.netlify.app"  className="btn-light"><FontAwesomeIcon icon={faEye} size="lg"/> Project</a>
+                        <a href="https://github.com/legroman/nunox"  className="btn-dark"><FontAwesomeIcon icon={faGithub} size="lg"/> GitHub</a>
                     </div>
                     <div className="item">
                         <a href="#!"><img src={photo} alt="photo"/></a>
